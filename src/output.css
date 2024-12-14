@@ -1428,10 +1428,6 @@ video {
   gap: 6px;
 }
 
-.gap-\[0px\] {
-  gap: 0px;
-}
-
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -2108,10 +2104,6 @@ video {
   vertical-align: super;
 }
 
-.font-\[\] {
-  font-family: ;
-}
-
 .text-\[14px\] {
   font-size: 14px;
 }
@@ -2263,10 +2255,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .underline {
@@ -2663,13 +2651,7 @@ img {
 .container {
   width: 80%;
   margin: 0 auto;
-}
-
-@media (min-width: 1450px) {
-  .container {
-    width: 1250px;
-    margin: 0 auto;
-  }
+  overflow: hidden;
 }
 
 .lang {
